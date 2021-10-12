@@ -44,10 +44,10 @@
 }
 @keyframes banner {
   0% {
-    background-image: url("assets/img/banner2.jpg");
+    background-image: url("assets/img/banner.jpg");
   }
   25% {
-    background-image: url("assets/img/banner2.jpg");
+    background-image: url("assets/img/banner.jpg");
   }
   26% {
     background-image: url("assets/img/banner5.jpg");
