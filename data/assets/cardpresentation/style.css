@@ -1,0 +1,25 @@
+.card {
+  width: 550px;
+  height: 600px;
+  background: linear-gradient(#373b44, #4286f4);
+  text-align: center;
+  margin: 20px auto;
+  border: solid;
+  border-color: rgb(0, 110, 255);
+  border-radius: 2%;
+}
+
+.yo {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nombre {
+  font-size: 30px;
+}
+
+.info {
+  color: aliceblue;
+}
