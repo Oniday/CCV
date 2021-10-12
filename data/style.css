@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: center;
   transition: all 0.1s ease-in-out;
-  background-image: url("assets/img/banner2.jpg");
+  background-image: url("../data/assets/img/banner.jpg");
   animation: banner 28s infinite linear;
 }
 
@@ -44,10 +44,10 @@
 }
 @keyframes banner {
   0% {
-    background-image: url("assets/img/banner.jpg");
+    background-image: url("../data/assets/img/banner.jpg");
   }
   25% {
-    background-image: url("assets/img/banner.jpg");
+    background-image: url("../data/assets/img/banner.jpg");
   }
   26% {
     background-image: url("assets/img/banner5.jpg");
