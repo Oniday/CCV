@@ -37,6 +37,8 @@
   border: 1px solid #fff;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  height: 5px;
+  width: 10;
 }
 .banner-content a:hover {
   background-color: honeydew;
