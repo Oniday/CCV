@@ -1,3 +1,7 @@
+body {
+  height: 1366px;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -29,16 +33,16 @@
   padding-bottom: 25px;
   font-size: 40px;
   text-align: center;
+  height: 5px;
+  width: 10px;
 }
-a {
+.banner-content a {
   text-decoration: none;
   color: #fff;
   padding: 9px 20px;
   border: 1px solid #fff;
   text-transform: uppercase;
   transition: all 0.3s ease;
-  height: 5px;
-  width: 10;
 }
 .banner-content a:hover {
   background-color: honeydew;
