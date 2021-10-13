@@ -1,25 +1,34 @@
-.card {
-  width: 50%;
-  height: 95%;
-  background: linear-gradient(#373b44, #4286f4);
-  text-align: center;
-  margin: 20px auto;
-  border: solid;
-  border-color: rgb(0, 110, 255);
-  border-radius: 2%;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(repeated-square-dark.png);
+  background-repeat: repeat;
+  background-size: contain;
 }
-
+.card {
+  background: linear-gradient(#636363, #a2ab58);
+  width: 350px;
+  height: 450px;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 0 6px black;
+  border: 3px solid;
+  border-color: #a2ab58;
+  border-radius: 10px;
+}
 .yo {
+  display: block;
   width: 200px;
   height: 200px;
   margin: 20px auto;
+  color: white;
   object-fit: cover;
   border-radius: 50%;
 }
-.nombre {
-  font-size: 30px;
+.titulo {
+  padding-bottom: inherit;
 }
-
-.info {
-  color: aliceblue;
+.parrafo {
+  font-style: italic;
 }
