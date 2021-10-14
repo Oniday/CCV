@@ -1,8 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(repeated-square-dark.png);
-  background-repeat: repeat;
-  background-size: contain;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-size: cover;
+  height: 100vh;
 }
 .card {
   background: linear-gradient(#636363, #a2ab58);
@@ -41,6 +41,14 @@ body {
 .twitter {
   width: 30px;
   height: 30px;
-  position: absolute;
-  left: 525px;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
 }
