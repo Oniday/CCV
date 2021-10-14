@@ -32,3 +32,15 @@ body {
 .parrafo {
   font-style: italic;
 }
+
+.socialmedia {
+  font-size: 15px;
+  color: rgb(12, 128, 143);
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 525px;
+}
