@@ -191,3 +191,80 @@ footer .copy {
   width: 35px;
   height: 35px;
 }
+
+@media screen and (max-width: 800px) {
+  .menu-nav {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .text-contain p {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.192);
+  }
+
+  .name {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .hero h2 {
+    font-size: 40px;
+  }
+
+  .contain-images {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 299px) {
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .title-section {
+    font-size: 20px;
+  }
+  .twitter {
+    width: 25px;
+    height: 25px;
+  }
+  .linkedin {
+    width: 25px;
+    height: 25px;
+  }
+  .facebook {
+    width: 25px;
+    height: 25px;
+  }
+  .text-contain p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .menu-nav {
+    height: 120px;
+    margin-bottom: 30px;
+  }
+
+  .enlaces a {
+    width: 5px;
+  }
+
+  .menu-nav {
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-around;
+  }
+}
