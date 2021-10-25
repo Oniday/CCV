@@ -57,6 +57,9 @@ body {
   margin-left: 10px;
 }
 
+.enlaces a:hover {
+  text-decoration: underline black;
+}
 .name {
   padding-right: 660px;
 }
